@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My example quarto website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Assignments"
+
+format:
+  html:
+    theme:
+      - superhero
+      - brand
+    css: styles.css
+    toc: true
+
+
+

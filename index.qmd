@@ -1,0 +1,11 @@
+---
+title: "385website"
+---
+
+The website example I liked was https://course.fast.ai/
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
